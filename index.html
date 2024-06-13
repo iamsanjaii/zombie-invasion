@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Zombie Attack</title>
 </head>
 <body>
-    <style>
-    body{
-        margin: 0px;
-       
+    <div class="nav-bar">
+      <div class="title">  <h2>Zombie Invasion</h2></div>
+      <div class="buttons"><button>Play</button>
+        <button id="restart">Restart</button>
+        <button>Quit</button></div>
+  </div>
+    <div class="main-cont"> 
         
-    }
-    canvas{
-        background-image: url("Asset 1.png");
-        position: fixed;
-        background-size: cover;
-    
-    }
-    </style>
-    
-    <canvas id="canvas"></canvas>
+        <canvas id="canvas"></canvas></div>
+   
+        <!-- <script src="chars.js"></script> -->
     <script src="Bullets.js"></script>
     <script src="healthbar.js"></script>
     <script src="main.js"></script>
