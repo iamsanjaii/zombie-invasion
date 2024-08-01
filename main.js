@@ -37,7 +37,7 @@ class Player {
     this.width = 50;
     this.height = 50;
     this.bulletController = bulletController;
-    this.direction = "right"; // 'right' or 'left'
+    this.direction = "right"; 
   }
 
   draw() {
